@@ -1,12 +1,12 @@
 [
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150530,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/BOARD__MHCOZY_TS0004_1_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150546,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/BOARD__MHCOZY_TS0004_1_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45631,
     "manufacturerCode": 4417,
-    "sha512": "4b39eb7fe54c9680ea9515cdd25ecc7af5faf2a8cd4295df82a5009ef5fa0f8a67ec37b4f638ba0f2981d9e6330b517606210b44445044a4628d3eb485265dfd",
+    "sha512": "c6d74dd030815171ada1bf5ec6ef904bb356d9423ebf3850e1b53e11add47a455d1dfa0575fb17080db980c949defb902bfa6fa555dc79ae77b76a47827250c6",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3210_imaccztn",
@@ -14,13 +14,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150530,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/BOARD__MHCOZY_TS0004_2_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150546,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/BOARD__MHCOZY_TS0004_2_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45594,
     "manufacturerCode": 4417,
-    "sha512": "a91f931b585ba4b64c2ae9b994bedc5bd5a69c486aef4107090441f3c25b7f5b0500d53827d54219f8b1762ddc1d46e95fc9046554d32d96b2ec0c4a63c7867d",
+    "sha512": "5d50f3dadcba10e3eddfb006b42b19ecb57a472a7ffb70b2896b304f6cfe908a28404ea0ba803078113061808a9d51c71f261ea33d28e91f7d7e678789aaa855",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_u3oupgdy",
@@ -28,13 +28,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_AUBESS_TS0001_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_AUBESS_TS0001_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43531,
     "manufacturerCode": 4417,
-    "sha512": "fae918a83f58606aad30392e59f07a7eb0a1b9618f07fa9c9740e76478c2bed3192a84c429c6b866809089d916c47ece112e312ca9df7db87d5e73b647f57c5f",
+    "sha512": "a4f90a225e520b3c5d8e54b0037c6afcab2be159982d114b264b8461c81918f0a5c38cdf2039e43d632690f04bc989fb7c15d22458445e232067141c61674c8a",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_46t1rvdu",
@@ -43,13 +43,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_AVATTO_TS0011_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_AVATTO_TS0011_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43537,
     "manufacturerCode": 4417,
-    "sha512": "423108b85e5c862ec9fa530b14146899aa4de86edbd0ed46240bd2d51e8eaffdc718284d8bd0dd96121edc6a05546e80b1bd5e7158466b5f6e02c6dc8c215ec3",
+    "sha512": "94e7cfd6450f6dc3ed274b1fb8ff2365fadde3c10da199b463ad3ba318858714b2e1e2020b321d28a43152eca4ae287103860c2536765f63492e6598c458236d",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_hbxsdd6k",
@@ -58,13 +58,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_AVATTO_TS0012_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_AVATTO_TS0012_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43530,
     "manufacturerCode": 4417,
-    "sha512": "7596451358d73cf5e82402b663ad7f0a9bfc2f108be717af828f9911ddf0f44408d0441e4d5d86ca893454341370b7aedb07edb2aea0cf6943c1b7676c8f1aa0",
+    "sha512": "d456e6b99098097b5f2a442cf04a3cf00e84bc78cd0ef8fbb6efa3215f9e58a648f3082b091f5a5e799ab689ac6f0ad14d2f4773e3a928d06da5606e85308440",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_ljhbw1c9",
@@ -73,13 +73,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_AVATTO_TS0012_1_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_AVATTO_TS0012_1_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43613,
     "manufacturerCode": 4417,
-    "sha512": "4ba1dffd16fadbbc2975d6c6732a7a09d925e0af451718da8d74a261cfdedf6773a60b074db84180e782a4cd6845dab146dd307e1be7304a257cf13fe2877173",
+    "sha512": "da40865d9760425c4f41550ef280cd17606619b85f377fef650399a08ae67a32540046866a1b91adbf9368e3ce750ce42ed4cc29e70f9b45a55f83e0c0e92bf5",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_kpatq5pq",
@@ -87,13 +87,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150530,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_AVATTO_TS0013_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150546,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_AVATTO_TS0013_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43552,
     "manufacturerCode": 4417,
-    "sha512": "97b06f0247be16f45f143e19c072ed84ac6e48bff454dae4205f721d05479981b55292aa47932d8a37239f5f997c83bf8485143a280d4d7874f9be2c1d6c3477",
+    "sha512": "07456b42d0d8223c56b657e935cda05a83ab40b21490e5505c9868d294187e299da99f5070884d26b9431208ae1a235ded23d8f5c8a6bc407c07f55592f9063c",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_avotanj3",
@@ -101,13 +101,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_EKF_TS0012_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_EKF_TS0012_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45592,
     "manufacturerCode": 4417,
-    "sha512": "c2aa8b872b2d087574be9b7be2a4f2603862ee946c881b2cb650b094edd501bc59ec8be968926eb1a2f832d2ad1e71e01c6befb93103a27eb4c05ea8aec06d5f",
+    "sha512": "d1e068b973ef132ecabbb12472adcd4b0f4867fdf60ed8395c52d331088124cdf6ca9c1b7452507a37f231a7226e4b35394fb5e10b8e052a59faa07f849e188f",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_num4zd6s",
@@ -115,13 +115,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150498,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_FARYLINK_L_TS0001_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150514,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_FARYLINK_L_TS0001_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43617,
     "manufacturerCode": 4417,
-    "sha512": "6db7793ba192c9518ce6a8bfd2dd66e9c9bad39ac784bc6bb8f82409fef4212549858b18ad0b68ee17cdb0f38dd6a6d42cc77129e0497d129ad4c3923d53a2d4",
+    "sha512": "2a3bffd3c33ecf53c23c2ce57cc6e630a6f19ee12ec9a06dd0fb6195d3a334398e77810b07346767551c8ca5f632450b0e05da32bf1b62e627f4400a79d344fa",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_qlhs2kqr",
@@ -129,13 +129,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_GIRIER_B_TS0012_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_GIRIER_B_TS0012_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43615,
     "manufacturerCode": 4417,
-    "sha512": "eafa0b04d14adc23a53a2ff69e31a8fe00c99c3f6ad7d622683398cf63e52449ac3d22dfccc5196483fd6f143208377441ef5a0928157f1bad368d6087af1d32",
+    "sha512": "be9a31ddf9ecafb19f9b5a100d95fb13f3de92fd2cce57239dd1d0df9523acfb13127fc4a2e222115e3da7e9f25716978c3bf9d5636aa9c42e3756025cb1af99",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_5sssic9d",
@@ -143,13 +143,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_GIRIER_TS0002_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_GIRIER_TS0002_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43526,
     "manufacturerCode": 4417,
-    "sha512": "90b8746248445616b6573f97eba0bbf4da660b425b3bf5805fd02958fd360d27894c743dd89d86e1f6ce5b4372dd0d40e2f2b795cc4d063231a72c8d3b5055f0",
+    "sha512": "01249e358e44d6dba0f99971ac320b0dd767a4eed8791c5281b096e4a21cb9f51e8791b159e094f9692e5bde0e026177b887d455cef8ab4156f349461c039d32",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_zmy4lslw",
@@ -158,13 +158,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_HOMMYN_TS0011_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_HOMMYN_TS0011_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45591,
     "manufacturerCode": 4417,
-    "sha512": "5933be3299682218895fa065e6a2ddf01b154c0a292e548c4a4cbcc7c80e8fe0f5506dcae58a091e0cd8d8d07b6b90744ccd5e7910aa56ce97e61f5e8c9146c8",
+    "sha512": "757d175060c801b09d22199bb3686aff95b32bf0524cf951e57c2b46b6d5de7808d9f77cd9cf4674465e8e6178005140459118e55d1f68b3cdc8557a5c7d5d45",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_tw4ztbp4",
@@ -172,13 +172,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_MOES_TS0003_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_MOES_TS0003_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43538,
     "manufacturerCode": 4417,
-    "sha512": "194232d6f0018ef48817826b5bd6ac5c447f5c7b83ac9cb9a862912d3a8540d7cc73328778789049f6ab29dd51ddf1fbe31c401f703eef2a3f0bb401ba8cad9a",
+    "sha512": "36603a9417bbe481ecda545a52a065096bded77a47365eafaa4737211c2fbd4590f4ccb1fed72d5f1cc6c9b34f6630433d7411ff740a132b88bffa887a8e6008",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_pfc7i3kt",
@@ -187,13 +187,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 177350,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_MOES_TS0011_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 177374,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_MOES_TS0011_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43629,
     "manufacturerCode": 4169,
-    "sha512": "7ef0ba29ea83686a3a6f35a4614aff1d7cb4ac394d82ad68c3953ae994f9ccc34b7e4da047639217f722bc970e5ba36f9eeafa029fe3ae14139d2f3a1123c40c",
+    "sha512": "5fb435f66409f1e67b23487cbd610f840155a09d3940149c3ef1d935afd4fc714027d8e55983c816e9f453064496d112a058eb5b7aa2733e9079542ff142764d",
     "otaHeaderString": "Custom zigbee firmware\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_zzoangmc",
@@ -201,13 +201,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 181790,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_SONOFF_ZBMINIL2_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 181838,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_SONOFF_ZBMINIL2_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45596,
     "manufacturerCode": 4169,
-    "sha512": "c15df44ee87c3fb4c7da168f143d8a3be4ec4482b457ba2c05642fb510ce4df9770bdde74c5bf5a57a3c542161c8890acbf087ad9441a5893254071095935c61",
+    "sha512": "d7358e31b35ee606364a1e63fe5a11564da2139ef1fa7b9675b19dd74417b6a050e4a55fb568d58d5e6d6ed1f56daa12d8b4844feb23e4dd52718f67af5d8bb8",
     "otaHeaderString": "Custom zigbee firmware\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "SONOFF",
@@ -215,13 +215,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_TUYA_GIRIER_TS0011_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_TUYA_GIRIER_TS0011_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43524,
     "manufacturerCode": 4417,
-    "sha512": "36e184ec6e0339531f878958cc981e27fa347de6c22fef505a78cae1457f7b09652d5e1c875cead7126c28d650aecdf0e7ca065741f7a1619b44c291881ebe6e",
+    "sha512": "a25d4bced6540d1f7bf5ac927fb47cc0ddda7a31cd2872999e17966531297973561d67ec781bd1673ac6a3eaf5ac7aedaf526076345ad28a588c6dc5a043e258",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_ji4araar",
@@ -230,13 +230,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_TUYA_GIRIER_TS0011_2_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_TUYA_GIRIER_TS0011_2_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45576,
     "manufacturerCode": 4417,
-    "sha512": "9b7c57ada55c8c18ab2a279a1b5c6a5b347e153bdd163fdaea97a111571e6b36f2a0212fddc88f866757b18138f7ee8216b6862451649f63574051754df08afe",
+    "sha512": "695393b3440e6ef5b0520a7e56ab18b4e54b8b87050ee15c279a590ad12b6be5de12dbfbda487a9ef88d501431a4ab58df278173cf9943f030acc94723f6fc0f",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_ji4araar",
@@ -244,13 +244,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_TUYA_GIRIER_TS0012_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_TUYA_GIRIER_TS0012_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43521,
     "manufacturerCode": 4417,
-    "sha512": "55fb5d7f31fa203f685c96f164426e40aadf0addae822335a9c28997db1c9aeaff9190d3c8affc03f956892c9b6992b20909a1190782c162f8da8993fa1baa47",
+    "sha512": "7f2985759ad07708215f89d81b4f13bed78227521078540331088591182e9c6431d6800363953be922e8559e02595549d179771c1b2368b239c5d9d0dad1d3a9",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_jl7qyupf",
@@ -260,13 +260,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150530,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_TUYA_GIRIER_TS0013_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150546,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_TUYA_GIRIER_TS0013_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43539,
     "manufacturerCode": 4417,
-    "sha512": "36bd946e70bde37f9bc7603e5df5c39a42da2b402185338c064faf808cef0d0dbabe34b1577c6208a687140cd208b86276a0637c74cb289b4e0f2436d811b6b7",
+    "sha512": "f81b3041c457e844301af43836612e6d2dbcd7c39a03ea9936350f69643f9cd367e536c3cf12abbe526cbe0da23efaf3a5f661ca4e0d8bd813d5543875ce55ba",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_ypgri8yz",
@@ -276,13 +276,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150498,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_TUYA_NOVATO_QS_S05_TS0001_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150514,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_TUYA_NOVATO_QS_S05_TS0001_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45577,
     "manufacturerCode": 4417,
-    "sha512": "1985e7f0c793567e5aae4872cee446a7eb7686f2d5074c5cb3c2f1256433a486100e6090d89d120dd62abb065540f2de4b039659fdb3cb2df4a90ab9da991df6",
+    "sha512": "ac424c60ad74dc16f1423bd758cd2f792cca4ae4f11d3d04fc18e98b096c7b1c6f873984f4f5536f2d74dd2bf2acb18fc01ce9b88564934406c84f426f64451f",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_yl3zuyaw",
@@ -290,13 +290,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150498,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_TUYA_NOVATO_QS_S05_TS0011_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150514,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_TUYA_NOVATO_QS_S05_TS0011_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45578,
     "manufacturerCode": 4417,
-    "sha512": "afcfa5db5727c09b2c293b41a93408d4cfdd491e37a1f9e94ee1153160945157f023ab3b0227e50d4dbb3005fae40bdd25730246cc42af0e1022511cb76c1f7a",
+    "sha512": "f85ad0d801c024782a5e3b856f010ed62fdb50508e8d2bb99221029e3f2eee55c1adf3ad7c6f06ff3b7f395e8f7ccd948eae68715f8f41821bbdb3a921dc5642",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_qmi1cfuq",
@@ -304,13 +304,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150498,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_TUYA_NOVATO_TS0011_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150514,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_TUYA_NOVATO_TS0011_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45593,
     "manufacturerCode": 4417,
-    "sha512": "7eb46a20cd66bfa949dcec41026423a661ca6d1dc78810c1a9646123f6f4bb6f37175b5ac0932548708d3a469d2e3d0e83d9d029347f281db3ac339f8a710c04",
+    "sha512": "7d39e9fff9e9419696a2f3bdc39c1babc28d00e1b57edb0af3b81b3da900aea1cec3880b5892f054733a1c00c35bb231777bc6349707231bf3080088f4985bcc",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_30jqysvd",
@@ -318,13 +318,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/MODULE_TUYA_NOVATO_TS0012_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/MODULE_TUYA_NOVATO_TS0012_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45590,
     "manufacturerCode": 4417,
-    "sha512": "2cf5a42095f006aa1d5e6423059b8ab0ec187effad9cb95a65f162e650a94288f1ad325351cce9f94ab85fbd6e5ed4c9000dfa0c4091db47f4e02148f43b4973",
+    "sha512": "b2e52c2c33d6dda195f447f60cfe12f1a20694b998bc3404f38bb86f8ddb768a45bba88f52f5b3738d004ecdc5cd7714157619e9b4ac40be9dea0ff93323dad9",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_c4muk4ys",
@@ -332,13 +332,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150498,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_HOBEIAN_BUTTON_TS0001_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150514,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_HOBEIAN_BUTTON_TS0001_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 47002,
     "manufacturerCode": 4417,
-    "sha512": "6e6d67858c8654be32465e21e5cbb6b43abe8275cbdea116c9dc11b1d6d7d067277bec985e2a074315bf40b7a7d26f91dabb201f2cf69836c070939b95ad8166",
+    "sha512": "468c756a1330a0c2db90050a9bacffbfdf96a70193e9a01e9ff13ad564b737c7d84ac2a7c7f30cfb4b058d25d1f50d653b319d7b7c2d5deba2143252490f2a0d",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "HOBEIAN",
@@ -346,13 +346,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150530,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_HOBEIAN_TS0044_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150546,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_HOBEIAN_TS0044_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43628,
     "manufacturerCode": 4417,
-    "sha512": "8a323550a9a68b8c252b1cc1ba6c37a983f6b68ec9875ac4429ea3b83040545886dac031c928a87d5cc30525cff55941111f0f8ec54a463bc3ad8e958279aa0b",
+    "sha512": "52e8e3af0b73c86cd41ee9c3cd314909e14294d69a233366fff4930a8a68abf7eb1233769700d885ee237be32e2a3deb004473d8b50ff57877f6ba662ea045ca",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_bgtzm4ny",
@@ -360,13 +360,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150498,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_IHSENO_BUTTON_TS0041_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150514,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_IHSENO_BUTTON_TS0041_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 47002,
     "manufacturerCode": 4417,
-    "sha512": "56db58d1844b77384588d8dafcfe0b329a6b4f7f335065fcadc5c7256525e2388121a813db387a75cc000ec0cc7ea03794fa85212b6886fe12e539cfcc9435df",
+    "sha512": "f91c13b3cd4a8877f8ccb8a30bb24be2d76fd33fe06bcd6f575b09642cd2cd2fa50a2da0bcea994c6599d80939abaffead487a902165b9d6a552ae3d9bb24bfc",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_fa9mlvja",
@@ -374,13 +374,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_IHSENO_TS0044_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_IHSENO_TS0044_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43563,
     "manufacturerCode": 4417,
-    "sha512": "0cb92348df2718b8c03358e6ed46295d3c033c9fc7a0f14e0b358d6d922bff654b89078cd71dbb8ffd70bf5170ed96625b7b3425cb48733827ddbef76de921fd",
+    "sha512": "42d2a0634f9236993b0da8c8662ae177487c980088c6f0ae1c489d47515083d4e914dc4376c04e45cd6bd55c9e05a42448b773675ef0904bb7acf5ce17e345d8",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_mh9px7cq",
@@ -388,13 +388,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150530,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_IHSENO_TS0046_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150546,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_IHSENO_TS0046_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43563,
     "manufacturerCode": 4417,
-    "sha512": "f20d1fc26aad89a887006a8594214e1ce9bedd8a581b744d82a3d8e0d090f4e97af7bb98606802835bd7820b696007bcef0d417cf2366de255bf747b658e8a7b",
+    "sha512": "adfedb577c7e96f473e9552475e4d1deb750ab5455f286b7baeb4ace605ea699ce44f253f7d42434c40f45295bc44453fa5a16f7cde4ec951a0b8aa8c5860b4b",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_nrfkrgf4",
@@ -402,13 +402,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 177398,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_LIDL_BUTTON_TS004F_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 177378,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_LIDL_BUTTON_TS004F_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45635,
     "manufacturerCode": 4169,
-    "sha512": "778955eb343623cae875d4f0606cf150b603ebff85d9f08ea452c591c9f3b6742c479aca60882970100d8ecb26c94a2990376acb784ecabb22ee044da523ba28",
+    "sha512": "b300cc313daa10c009b7d42da32d8e98bc2c249bbcac1b29334f9750da4513efe34265c58c60ef4154263d45c4bdfce3a79087ac95f07ccd6188c9036595ee84",
     "otaHeaderString": "Custom zigbee firmware\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_rco1yzb1",
@@ -416,13 +416,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 177330,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_MOES_SWITCH_A_TS0041_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 177378,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_MOES_SWITCH_A_TS0041_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45638,
     "manufacturerCode": 4169,
-    "sha512": "2d8d0f349ddd186fa36658c268d812c392d010e6462d12bb31ef087bf1c0e2acba9da2e1ab93d36c8283f99ebb801c36575ddae84d69b6c51386edfa7119719d",
+    "sha512": "fb392db69a403030a232384b61cb6cccc90c12112e72d5d4342682a824ba78c2a33ceb39d38b3c905360cb5b5a87694081f3929a2457ea944c8ad073c1903fbf",
     "otaHeaderString": "Custom zigbee firmware\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_axpdxqgu",
@@ -430,13 +430,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 177378,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_MOES_SWITCH_A_TS0042_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 177386,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_MOES_SWITCH_A_TS0042_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45635,
     "manufacturerCode": 4169,
-    "sha512": "6abdfe58fe5b6698ebaac5a5d8624b346f34ab8fb92e85858899b554dca9576a0375bd520be5f64932255c6277c523a90b47ee072ccf93faaef1e78c7d3663cb",
+    "sha512": "b7306a633f4f0eda51f0a35a3d6132f84216aac641d89834c8de13d5fa502a80712123e239e14cf1520ec1b77ac2386526dd47f0e3870ded78dcc84a64e48cf1",
     "otaHeaderString": "Custom zigbee firmware\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_5e235jpa",
@@ -444,13 +444,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 177370,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_MOES_SWITCH_A_TS0043_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 177366,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_MOES_SWITCH_A_TS0043_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45633,
     "manufacturerCode": 4169,
-    "sha512": "7d0bce665b2c65ce7f94a5246644f129de8392e13a3eb0cc4879362229c9c200fc8fb20ed8e8895df620daa6483f33f006d2875e97acc12238b164492cd2138e",
+    "sha512": "d007be75b2f4fac050ad85ca923a1942eeee5d05f62d34bb3a11108ee605758fdef85e094567f415ccc7df575fb285936032ebd062fd2440489151d02ece0186",
     "otaHeaderString": "Custom zigbee firmware\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_gbm10jnj",
@@ -458,13 +458,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 177362,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_MOES_SWITCH_A_TS0044_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 177370,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_MOES_SWITCH_A_TS0044_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45634,
     "manufacturerCode": 4169,
-    "sha512": "3c67d28df1c14f17882ff2453bbcfd23181624d53c46ccffff5edfd90de99550154472fe89fd8f729782292792292a058702db8683805d05ea64acc0f7fc5b7a",
+    "sha512": "30ca2a59712c4604febea6e4eae057771cd16fbbf1a12391fc9ebd6d6ed8bd794c302fda2f78220739bd009743b1fc34071412650ac24923b1d58342716a4cef",
     "otaHeaderString": "Custom zigbee firmware\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_a4xycprs",
@@ -472,13 +472,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150530,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_MOES_SWITCH_TS0044_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150546,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_MOES_SWITCH_TS0044_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43572,
     "manufacturerCode": 4417,
-    "sha512": "3fc0f078dab28f811e6643dfa2185394d5948dd7693221392e3734eaee8535f3041c5c5ee536334195c840e2e7ea1ca256e597e884f10bfe92e6753e35830208",
+    "sha512": "56a4802267f8303c09d8e62367069faa6729125efc75d6dddd3a58032025d6b89e713f92c2d4decd46fc4958f3423c8a09d6662f2b8d6fb3e0818d1243aa9aae",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_zgyzgdua",
@@ -486,13 +486,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_TUYA_BUTTON_TS0041_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_TUYA_BUTTON_TS0041_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45636,
     "manufacturerCode": 4417,
-    "sha512": "f8bf56e04d604fae08a9e7803cb1e921b20c845668955248b1827ae8b443a4815222035efa41eed276b1ef32ccf9409c20ec7601491fb873b20d27e6bbe9bf68",
+    "sha512": "a1bf466f6a3b67dc5cecf1bc3d72b2636b624f65d85a6ec4089904fd6c91457eae9ac79a7c0ffc4a1e4c175cdd1a523fedbaa66054cf40b0d54244eba4c506f4",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_mrpevh8p",
@@ -500,13 +500,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150498,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_TUYA_BUTTON_TS0041_2_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150514,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_TUYA_BUTTON_TS0041_2_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45636,
     "manufacturerCode": 4417,
-    "sha512": "2c08d59dfe6297df91c53a3da9004e42e46ec212beedef03ff006e8129923863419f29c2d50f48091cff6e945c0921dd040a4e7aa3573a0b95fa98368e4ff4ac",
+    "sha512": "696031c2995c93cb8b2f1e425cf4b68cf038a1060f27460c393d4e939e726a47b9075d71a4fb5b515b3bc71b64cb8a0851a81b4aa9b19ed653de0ca1bf02147a",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_yj6k7vfo",
@@ -514,13 +514,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150498,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_TUYA_SWITCH_TS0041_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150514,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_TUYA_SWITCH_TS0041_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45636,
     "manufacturerCode": 4417,
-    "sha512": "239b76123446e06cc103785cc13a46109f8872548cef243ab3bafec04c6b1d115bfb769f34365cc00dc9c2298040c8d8ca74ca2994ccb21b0423cdbaed1638f5",
+    "sha512": "420a3e67326377741f03e21af03d78a73a42606e1e32cd19207f5329e66e84e942f4d76362ab934d53a4ad3c251e170abf19dce10450cd5677b57eea4baf7b90",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_itb0omhv",
@@ -528,13 +528,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_TUYA_SWITCH_TS0042_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_TUYA_SWITCH_TS0042_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45637,
     "manufacturerCode": 4417,
-    "sha512": "235fd9d3c4daf2c8b66aae4f413ae9e81bd2879633dbc1cd60a10adbe182b60dba60b29eec3688f0e337589dbbb1df5d0f017d5c5e0bb32f80c956935fa3d3c0",
+    "sha512": "b0677f13dc1e6a2de84e56017b1008b0c13a9c85f5db6cfdc90b050dca33d91ee04b859406834adcd7464af82034dc1231ee47c45ead010d8e395d92012e5f75",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_tzvbimpq",
@@ -542,13 +542,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_TUYA_SWITCH_TS0043_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_TUYA_SWITCH_TS0043_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45637,
     "manufacturerCode": 4417,
-    "sha512": "5b1f36d902952cf4ac6900d24f149898e3979ef8222dcfb4f4450ff6b2d99d763b94896b993e51ce4842a4c9cac8ddc616b719701fbad2ff880acffe635ee556",
+    "sha512": "8a5f85d759e2b348ca1d9131e0ca50a2785e22d745d5b5afb4f6e2b84b05cda74c08dbb074e5cea80bb789a2e399cffb862c9093ae2cc421e32d1dc54d6df3fa",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_pkeqinnt",
@@ -556,13 +556,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_TUYA_SWITCH_TS0043_1_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_TUYA_SWITCH_TS0043_1_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45637,
     "manufacturerCode": 4417,
-    "sha512": "20f197075f5b5528cca0ada43c554767e5701402634e226f61baed4a67ef4c91609cded4c5e7bda43b85d33b32e17ad789c90c806a91c922e33ffd7bec2872bc",
+    "sha512": "75284284c1c2363455529a2add41059bdb520d1db0101b9a9789cf6f9a07c3686cc2a613cff8132e8e4c208cf9b15553444beaa65a49206a6916bebcb14277ef",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_sj7jbgks",
@@ -570,13 +570,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_TUYA_TLSR82XX_2GANG_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_TUYA_TLSR82XX_2GANG_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45632,
     "manufacturerCode": 4417,
-    "sha512": "bc2dc746eabf7dd5b4f4cace00aaf89a423c7c9a7a52f4c34afaff9af932e23d8c78af2d6b390e2fda0fae12472504c2c195494d66a8b39b80baea4d943c2f09",
+    "sha512": "c3678c5e94088bc6df76b763d07b4009368e94d361bb6d0b83ca759d5efd141b91330643520f26642630b2a6fe655c52d5f6c48ee671a10cf9076049377c527c",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "TELINK",
@@ -584,13 +584,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 177350,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_TUYA_TS0044_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 177394,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_TUYA_TS0044_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43577,
     "manufacturerCode": 4169,
-    "sha512": "4a1ce95e0aaf629e509bdc797ef89f6d2b338e2f0bf8c9baac5a7bd922e67bbb4666e313d0caa142bcaea3bf698b5758773f14b6081bac4e321edeaa9a207a87",
+    "sha512": "b409fce57da89c209f8b3a6ad91b43d01112307e05a4bc063e67402d8d3ef0293c359ab7a6dc3c3882415584182e1f8465e559e745599aeaf14c430ce21f085c",
     "otaHeaderString": "Custom zigbee firmware\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_wkai4ga5",
@@ -598,13 +598,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 177342,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_TUYA_TS004F_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 177394,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_TUYA_TS004F_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43578,
     "manufacturerCode": 4169,
-    "sha512": "5c70a2f9e2b232aca16ad891d36f54d80647a6c5c9d1b8a0ef485bfd8bcfc8b3f80125721466d7161b53daa79bd2380138719cd222d82592e4dc1aedbcb2d53d",
+    "sha512": "c446f0234c8545b07e8141bc0c375f9ad415fe481a63cedd6541b4997480fc4293e7fcdac55312d0082c3561236a7342cc3cadfc6e0bb757241e737678bd46c1",
     "otaHeaderString": "Custom zigbee firmware\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_xabckq1v",
@@ -612,13 +612,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/REMOTE_TUYA_TS004F_2_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/REMOTE_TUYA_TS004F_2_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 47002,
     "manufacturerCode": 4417,
-    "sha512": "0a9daf918365647bf2dd1586cb383d375e1e335ab44ec852ee7107af66204a8c1f30a2d233ad525ddaad8f28489b75ed198ee56c39b43733e56d822767b7fe18",
+    "sha512": "e98abe566b67b2a3da27da408fb53bbc86b981a7ead89cc42869388f2e7c2b47dbb852016a23a797002476e7598c3dbcc1139c118f9a361a91e2efde927a6933",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_ja5osu5g",
@@ -626,13 +626,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_BSEED_TOUCH_LATCHING_TS0011_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_BSEED_TOUCH_LATCHING_TS0011_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43585,
     "manufacturerCode": 4417,
-    "sha512": "a4b5cf3da82e8fe83c7d63cc9b16a138e630c61568ade43a0dd6ae54cf686bb51ffdbaae3137028f18af77b69dc591d3992d3f78abdfc86a2c53a08e93846a75",
+    "sha512": "e1733eac3b7652d636b210c3dad7b98b9841f663eaf01551e92d1f77f4a744f820939fd482bec86b243be9e11a92c90fb997c099a9a683a45ef40e138c429075",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_aetquff4",
@@ -640,13 +640,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_BSEED_TOUCH_LATCHING_TS0012_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_BSEED_TOUCH_LATCHING_TS0012_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43544,
     "manufacturerCode": 4417,
-    "sha512": "efad220ca7d21299528ee18fd0592cb4122f734d4fcb6c02b90322c6954ec7f4f15feeb6ff8368d37f44ae58a8010638993a201fb2388ccbc7bcc2b32bdda33e",
+    "sha512": "3f345ec9408dca6d576e09411447cc8e86a294e80e9437b05bab21793fbe873d8751cbf949ed19673c6b19b24e7169ef1db0b83dec58416462d8a191e720c21a",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_xk5udnd6",
@@ -655,13 +655,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150530,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_BSEED_TOUCH_LATCHING_TS0013_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150546,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_BSEED_TOUCH_LATCHING_TS0013_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43580,
     "manufacturerCode": 4417,
-    "sha512": "17980ade840cc9c5778bc37f498e7fff073f22874c6362326a836cd479c4f381b8570725a20189c6f088fc468a0b4bbaf83e5b27b250ef42a815d1672e82daec",
+    "sha512": "6d7976920a50488fd0efb2aef85f1d4bc2bcfeaaf1e35483f1b5b401ffab61d56c8a4e16db65e5a94bd816c0a2c740fb0468c05654b4a8558372b58233171554",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_kfwhmnvc",
@@ -669,13 +669,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_BSEED_TOUCH_TS0011_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_BSEED_TOUCH_TS0011_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43564,
     "manufacturerCode": 4417,
-    "sha512": "3c7030492bdb2dacb3d764204b405d0cf4e1d4eef8fa757a3b98ca829c32bfbd7fe67c7b379e4a6a3739e744a8ae104f239837c4d42305e8556aa2d4de4e1467",
+    "sha512": "f937e971d19b26c2bc8ecf2ed03c1f88e3f3b209b02ef139651650d133c431e723b13a66421dbc31d5fad6a41f965a859ec53218465d4c20f24adc2b8371b0bc",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_hafsqare",
@@ -683,13 +683,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_BSEED_TOUCH_TS0012_1_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_BSEED_TOUCH_TS0012_1_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43534,
     "manufacturerCode": 4417,
-    "sha512": "4fbe2adce5f47f4dc03e4e27a9c65129c0231d491846416b33c6b937bfa155508aeacc8285c1d4fb9108b2823bccdf6c2fc3150320d5ab975e742a10ae9a44c2",
+    "sha512": "5fa3871b13555d52ae773bdf2560d0dffe9c4088a9d44ab959246705dabe3fe54f669515ed1b965698b51d008acbde956e2402ee00bd395062cf8a129b0e3db7",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_f2slq5pj",
@@ -698,13 +698,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150530,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_BSEED_TOUCH_TS0012_2_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150546,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_BSEED_TOUCH_TS0012_2_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43569,
     "manufacturerCode": 4417,
-    "sha512": "92298748d1199e1c8a3a2ec66aeb8857d8c7e7e1a5990090a21b6ad2ff82c978bb0ea3846895825a2695e45b15fc6e136e4fa4c50a0d3421adaedd46a4a6e273",
+    "sha512": "8a8bfedc19dc6bc43bb9fb77113e532ec244a5dda37604832d6c45f81459057a4b0da1ff9d83095ce3e4cfbb4050ec814690205bf9c1d4e865c55c9304af090d",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_e98krvvk",
@@ -712,13 +712,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150530,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_BSEED_TOUCH_TS0013_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150546,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_BSEED_TOUCH_TS0013_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43570,
     "manufacturerCode": 4417,
-    "sha512": "b4e422c05361d2c47c037b1246d3e5f895c706c8d58df5e8eb129a3cdf4f21364ce59b58d86c2a788b62663edfc6256c7950ce8faa04a052eb1af7c18c6fb515",
+    "sha512": "c131417b92785b7e0c2c7555a712fd6be3044c79b955670e51e9f9eb95ea1641e63d448cf00a30f2c8930d24a6cb0e90e9e8f7c7b12ae924e57e6577841bd4f9",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_5e5ptb24",
@@ -726,13 +726,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_BSEED_TS0726_1GANG_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_BSEED_TS0726_1GANG_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45580,
     "manufacturerCode": 4417,
-    "sha512": "41f33ae08bc89e0c23ea8154d49ffd355c3018dcea2a6f33007e3c4f4e8a02794ca96d86c8181cab46251f6f0853439bc2a86cc7cdee9c2e349c1c7a548ee02d",
+    "sha512": "b058efdae36342983a067330a876c6173b11c14e7b2059627e66ffafa46b5516fb53eb9db3552553ebaaf2253dc911f7b433a589451701aaedc6a278426f248b",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3002_jn2x20tg",
@@ -740,13 +740,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_BSEED_TS0726_2GANG_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_BSEED_TS0726_2GANG_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43562,
     "manufacturerCode": 4417,
-    "sha512": "a5c4c559b2d820c8dc55176807d31fdba446b5d9ba7c9d3ce87260f533a818aca5e66286c10ef93f40d0e743983cdc5d44f99e3c28361316c91049251f456604",
+    "sha512": "992158500e2f4b6665fffeb5fa21e99ca57fff0bffedd53beb0bda3143925d23cc1b5bf3cd6c9c155e142b10f5bc1249ee8b55356d242e858fe4651dab13f49c",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3002_zjuvw9zf",
@@ -754,13 +754,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_BSEED_TS0726_L_1GANG_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_BSEED_TS0726_L_1GANG_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43632,
     "manufacturerCode": 4417,
-    "sha512": "54b251efd9fa8087b08bff6218012c59781e2545e694e6a26de076f02b61de7f0313067bf050361275f80314b952f9ba1b429067bfd9088ec7052029f7e1cc74",
+    "sha512": "74a6a8fbb3423296770ab53b7e42cc6b21f13d95d4182121ec921328b6f577445624546f14e70a5cc18675df47a6ed5912be6b15953a652e1bd861d615c7dc89",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3002_xkxgfxsg",
@@ -768,13 +768,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_BSEED_TS0726_L_2GANG_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_BSEED_TS0726_L_2GANG_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43633,
     "manufacturerCode": 4417,
-    "sha512": "55217ae4b4f131d44bd5699581ce25d2e7d03a93129a78cd21445aa1f53774e08fd0d7b045b24237c863e219d135e063720c0cee71c603bec99ccf6bf7f2666e",
+    "sha512": "664acc520a031adf6d9f4073180bf510057177b504b900034bb46e6c963a97d8cfbca7b679b8f89c756c2b0710940e927c3607028a9d113ddac41fd73ed3c9bf",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3002_tlsvxhxc",
@@ -782,13 +782,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150530,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_BSEED_TS0726_L_3GANG_2_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150546,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_BSEED_TS0726_L_3GANG_2_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 47007,
     "manufacturerCode": 4417,
-    "sha512": "b56194e097031950ce62ae71372e606525a4811580cf7fd6a61b7fe92fd54775da63b334f5bba4f4680c6692e86ed5e863ffdc78d43133a06c3ee0d1f6ae2efb",
+    "sha512": "12ad98268c4010d6af088cf56e0d2f891df554258e97e537e8b15ed8212d6394725173412b56d4c9ac261d92a9611ac15b111db0bdbfed140f9f48be88683372",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_r2fgo9ks",
@@ -796,13 +796,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150498,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_HOBEIAN_TS0011_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150514,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_HOBEIAN_TS0011_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43622,
     "manufacturerCode": 4417,
-    "sha512": "23664951bec2ba4c73db8b6e2a7950499f63704f33084be4e74c8149286d8af4b2b9547e7cb7ae975fe2f1a28bf9ad1af25bbd0d5b6d8435a4c76eae09fe66b9",
+    "sha512": "3eabb6639d6c9dcc3d47edd28e46e422c2bbfb7816f73fcc841aaa095291e16b1fb09eacaa6262c57f42719f739913ef3734eeace7a5f99f941042a86f7c2613",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "HOBEIAN",
@@ -810,13 +810,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150498,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_IHSENO_TS0001_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150514,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_IHSENO_TS0001_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43557,
     "manufacturerCode": 4417,
-    "sha512": "8478608e6fb60e4ce0542440080877aed58ad1745c2f36a0175b02d7d14f33d49efff226fa4ebcece89a4033877fb3c3454124bc440f76edf8a013eba4a61b5f",
+    "sha512": "8274ced469e9781fcb15d403de8de64d8e4776a55534dee118737b67f3321fdb51a2cc5ae267ecdf24ab0115a13332977152f852d09dc73acde58dfff66cb395",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_qq9ahj6z",
@@ -824,13 +824,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_IHSENO_TS0002_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_IHSENO_TS0002_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43558,
     "manufacturerCode": 4417,
-    "sha512": "2cc88bdef36737d82cd00a7b6042d6490296d772fee281c82e79fc4982412cd4e78660f5a6989eadaf857865d93ac80eb9c77b2b2f2e2e5d1bdde88a6129a9ea",
+    "sha512": "a8464199d9717c6c7933e35878ea5241398b50b5aa9a637c313dd4bd555cbf157827bed61256b49f6d7e493999a715d3c84e300821c16111faf7bb2e0315108a",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_zxrfobzw",
@@ -838,13 +838,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150530,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_IHSENO_TS0003_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150546,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_IHSENO_TS0003_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45640,
     "manufacturerCode": 4417,
-    "sha512": "c7c6de6421d846630825f5b7dcbd027445723505ac7442703ee71041b9c51a931afbb88c1b64acb6fd54e36f420994c2c6d37f605344cf586468194f382c12f4",
+    "sha512": "9f3b34e3242cf43ff8c5e8c8b00230f575a38bb2242716f9d43369b581f7ef29c4a966d2955c0ed825c8c9fb3f7127127a3d601605509e5d60e5b8f7f1d4d6c2",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_ju82pu2b",
@@ -852,13 +852,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_LERLINK_TS0012_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_LERLINK_TS0012_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43510,
     "manufacturerCode": 4417,
-    "sha512": "7d1832594a66838182fc4d54d59764e0f0e1b0ebea0c5e6ceb1c830fbedab63547abe4220506facfb3d5c2d0043c175b7f1ca53312bdbe02743367f048096f04",
+    "sha512": "791f873a0c7bf9bc3a36ad1b35cc7f278f6241e56f61e51e55edefc2a0df0da526892bdb705cde104fccf883f23de442b147b97a426c150449ace01f01f0586a",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_dlp6yvs8",
@@ -866,13 +866,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150530,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_LERLINK_TS0013_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150546,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_LERLINK_TS0013_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43533,
     "manufacturerCode": 4417,
-    "sha512": "721782722d1e2d7265bff6b859f91ac84bd41c34dfc5c0c73880f05bb260c50a2e02f4a7cd5ac0ae9e911807ab7e38c444d80bf1f8361fc71d2c3eb367642aee",
+    "sha512": "34fca382937e466a7fde40a4f7cff6ae315bc729e860a52887c5fe7a497de79c3bfd73fc614d4709c57e24f12948c0985a75c081c5e74ca5a4744d841f64fd19",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_qp7x8u3a",
@@ -880,13 +880,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150498,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_MANHOT_A_TS0011_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150514,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_MANHOT_A_TS0011_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43599,
     "manufacturerCode": 4417,
-    "sha512": "3f1cb9ddbd5be29afb8d6d62439b09111781e687f53965171ba5607b60aa4cf682fdeb4c2a3caeaa504871a59ac0872aee1a6a58c104d74699bf898158ad9b05",
+    "sha512": "8b8d268558783f834287cd33f808d18399fd36c79946ec0e24f933f47d20ba8c13a327aacea23f0d104e2c6fc922483ca7198e669ef83e59a29e595e238aca49",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_kea5qgnd",
@@ -894,13 +894,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_MANHOT_A_TS0012_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_MANHOT_A_TS0012_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43600,
     "manufacturerCode": 4417,
-    "sha512": "57101992be77ba3e228e20240ef1bc498faff019b8e8765bc6869e11f3750f10e0f21086d8a70cb6a3d56c17d9895660eba5bd5c9921ee39a4e3d2df40eaf57c",
+    "sha512": "ea1871d18dc0c77b141ec4891ea5bc5607afd970dc1b39da386e03542e50f93ab8b2391fe9a25407f9f4b660a7584a6e52561b5da6272a5cd6b510c55d5047c7",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_toaaawnr",
@@ -908,13 +908,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150530,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_MANHOT_A_TS0013_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150546,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_MANHOT_A_TS0013_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43550,
     "manufacturerCode": 4417,
-    "sha512": "c07277d5fd4b78a924355e8c11330fe6c0d53453637b4cac5ef1e003aa88cf474af4fdb898e0167f659ad56d4ce94999c91d1a4bc7b57c95b3b549f6e4c3ad74",
+    "sha512": "6e16fd6609778919b3506bfc83443f92989b916fa9ef68fe9e3f8d204592e5807593c4a228f3464cd775d15a9454ccd8812a19fd9122cd33b9cc03ed7ec699b3",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_tqwydnqn",
@@ -922,13 +922,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 177366,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_MANHOT_B_TS0011_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 177386,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_MANHOT_B_TS0011_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43586,
     "manufacturerCode": 4169,
-    "sha512": "86e49b65802383e31c13eaf5fc61a90becea43ec898b3da44808daed79e3fa257f4276df26bbb211c01d9fd44a4fde5c201e7eadabf4f2b4fc5e96d62ff144c4",
+    "sha512": "23561fb7eaa8fdce612bee0e9917cf8182df5b468c84c4aab597561277de96fb720e237c0a24833364db804eb6502018fd3432ae51a679bd0771244a7b7ec2e1",
     "otaHeaderString": "Custom zigbee firmware\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_bmzfjnbp",
@@ -936,13 +936,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 177386,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_MANHOT_B_TS0012_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 177398,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_MANHOT_B_TS0012_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43587,
     "manufacturerCode": 4169,
-    "sha512": "8e3b1abab3c7186ca28338fca5409098655652c6f611ed18408959c19cbe612fb43a894a2f4f118e1c31b9a345d204866b75e39cee7e67e3f427bc8b7392e4b2",
+    "sha512": "5b01df816b1ff1c016f3511c270bb12acbaa4e59ef0fd22c6ea661bea9428cb831d60409202a9548ef6c13d64ee0749458bc85417ff3d19f76cab40bc3c5590d",
     "otaHeaderString": "Custom zigbee firmware\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_ugaem1nb",
@@ -950,13 +950,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
     "fileSize": 177370,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_MANHOT_B_TS0013_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_MANHOT_B_TS0013_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45586,
     "manufacturerCode": 4169,
-    "sha512": "c158dc48c16312fbcc3249d8636617b5a06af7df890a78645e52fe588011d799c3b68813bfd551e06b60d99ebf80896fb99912a6bb0ba0f3107b2f65e8a3da34",
+    "sha512": "ded75bfdf6e871ade06dcc737a6e9d335dd330950b725f576ebdebdb6db65272bfa0b0be507787210591f44c0ce5b6f71e89947aace3c436e0ceecaa4c5c76b6",
     "otaHeaderString": "Custom zigbee firmware\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_snq47izk",
@@ -964,13 +964,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150498,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_MOES_ALL_TS0011_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150514,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_MOES_ALL_TS0011_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43532,
     "manufacturerCode": 4417,
-    "sha512": "1059deed368270004518bd2a627885fd74732aba112b40a07d08344028c37c7e3945403fab0695214b77f0ee10f53138d9e408e90c2f734f7c71e1a54f9a226f",
+    "sha512": "3ad5c6d171f249a4a9abec73420a574d27465a9528fd32ad4cb42e25661b395dfb18d2523f9da8c6b4028cef465923fa3e5dba543a54f99f0db5a7ec725ecb41",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_hhiodade",
@@ -979,13 +979,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_MOES_ALL_TS0012_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_MOES_ALL_TS0012_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43510,
     "manufacturerCode": 4417,
-    "sha512": "9bc69f0e201e84a26923adf1a1365e3905f26d08cd3b38eed472643305120f686620e86bc73b621de6023dea4ac16849b0f507a16bd75fa61ef686f5adccc93b",
+    "sha512": "949cbfece380c0c00ce4f48c0076188817682cab5ba2e6070c243b1caeec910c23b26eea8caf83f598f9e8a98c3895dfc0e169f611f23eb25282811c423420d4",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_18ejxno0",
@@ -994,13 +994,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150530,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_MOES_ALL_TS0013_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150546,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_MOES_ALL_TS0013_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43533,
     "manufacturerCode": 4417,
-    "sha512": "c5368491a2b8250166f3dd8aea1ffaac3894c2253fec03cb3a83425836f7dd0dd1e6b011b8df9c79967a31a125d1c13108a868336b6c3a69d9c9f1a8395f4255",
+    "sha512": "b2711ae1caf6e5c32d2491a29a8e9923d72ee6dcbcad2b9b53f235fd34e4a330389aaff39838770bb5eacf940e78b0ac77d672292056ca22df8467b6e0c5a375",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_qewo8dlz",
@@ -1009,13 +1009,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 177342,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_MOES_ALL_TS0014_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 177362,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_MOES_ALL_TS0014_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43566,
     "manufacturerCode": 4169,
-    "sha512": "ade67d63840b2f74c2edefac859c5a5844493b068c3c439343e2e6f1393aefc04461f4c47c6bfbcce88e53aa3e369d6144ae518ea90f20952e50935307964673",
+    "sha512": "a86baecc0e7437c8ea66ab5a0d9f910d08f8bc967847618a34b41502e1042b1a32663c52b3edf2c29006d8cd3a2857670a250fc3f24e00fe7a788f5a749c760f",
     "otaHeaderString": "Custom zigbee firmware\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_mrduubod",
@@ -1023,13 +1023,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 150514,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_ZEMISMART_1_TS0012_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 150530,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_ZEMISMART_1_TS0012_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 43536,
     "manufacturerCode": 4417,
-    "sha512": "cba4d481e24cfb55072533bab6c63fc4ecdbedba7e83ea458e259f2e8cecce35f2ecb859cdcf9dddb90037c942556aedcdb8513be42d4b5b8839a8a6ee9192cb",
+    "sha512": "6ddfeee25df81e26844bec8f148353b18b5bed917950b2f55e3f447562c8735de64286764d64e13711cb38b12420f73ed1bc0a54d8b5b6bce3ad17348ebc0441",
     "otaHeaderString": "Telink OTA Image\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_zmlunnhy",
@@ -1038,13 +1038,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 177334,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_ZEMISMART_2_TS0011_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 177370,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_ZEMISMART_2_TS0011_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45589,
     "manufacturerCode": 4169,
-    "sha512": "6065d970e7acf0edd67a89e813ee0cd6a11715a3629fa209f7cf5d15d54d9f5f1c59ebd21df8fc3a72644eb6258cdda9dab0b82869fcd52fc8844a373a426198",
+    "sha512": "f1cedce18dc7170e2f69c65bef5e905be069ea23a347f31f1581ee31a30488c3eb148bf2586e6cdd1b65b11d1fe50192c75e1ba245c7242948a45de5de6006ce",
     "otaHeaderString": "Custom zigbee firmware\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_ilauzyjm",
@@ -1052,13 +1052,13 @@
     ]
   },
   {
-    "fileName": "tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileName": "tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "fileVersion": 4294967295,
-    "fileSize": 177362,
-    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/b610e7db0909a63a686391f45c14475e2155c859/bin/end_device/SWITCH_ZEMISMART_2_TS0012_END_DEVICE/tlc_switch-1.1.2-ae6e20f2-forced.zigbee",
+    "fileSize": 177354,
+    "url": "https://github.com/huepfmonster/tuya-zigbee-switch/raw/refs/heads/long-press-heartbeat_build/bin/end_device/SWITCH_ZEMISMART_2_TS0012_END_DEVICE/tlc_switch-1.1.2-9dec6420-forced.zigbee",
     "imageType": 45589,
     "manufacturerCode": 4169,
-    "sha512": "1f4a99ea6300a28da911e5c226e5f5e5df632a56c98349984920884fc2358b24ea7685817fcc9779e3f172d05393e7496051db67221c6034f39b6ae942d34f49",
+    "sha512": "5dd647e42e18b2f74fee17a37ea59bb917057150ec44d7887a8037e53cc7f8043070847769d7e6b1e853333ed76f46c55dca3cda48c68d95c5c2250e05b3fa62",
     "otaHeaderString": "Custom zigbee firmware\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
     "manufacturerName": [
       "_TZ3000_rbl8c85w",
