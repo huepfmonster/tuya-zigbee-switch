@@ -352,11 +352,21 @@ void switch_cluster_level_control(zigbee_switch_cluster *cluster) {
 static void switch_cluster_long_press_heartbeat(void *arg) {
     zigbee_switch_cluster *cluster = (zigbee_switch_cluster *)arg;
 
-    if (!cluster->button->pressed || !cluster->button->long_pressed) {
+    if (cluster == NULL || cluster->button == NULL ||
+        !cluster->button->pressed || !cluster->button->long_pressed) {
         return;
     }
 
-    cluster->multistate_state = MULTISTATE_LONG_PRESS;
+    /*
+     * Diagnostic only:
+     * alternate the raw attribute value so that Zigbee reporting
+     * sees a real change on every heartbeat.
+     */
+    if (cluster->multistate_state == MULTISTATE_LONG_PRESS) {
+        cluster->multistate_state = MULTISTATE_PRESS;
+    } else {
+        cluster->multistate_state = MULTISTATE_LONG_PRESS;
+    }
 
     hal_zigbee_notify_attribute_changed(
         cluster->endpoint,
