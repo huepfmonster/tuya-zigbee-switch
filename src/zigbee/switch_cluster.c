@@ -31,7 +31,7 @@ extern uint8_t switch_clusters_cnt;
 void switch_cluster_on_button_press(zigbee_switch_cluster *cluster);
 void switch_cluster_on_button_release(zigbee_switch_cluster *cluster);
 void switch_cluster_on_button_long_press(zigbee_switch_cluster *cluster);
-static void switch_cluster_long_press_heartbeat(void *arg);
+//static void switch_cluster_long_press_heartbeat(void *arg);
 static bool switch_cluster_has_valid_relay(
     const zigbee_switch_cluster *cluster);
 
@@ -95,10 +95,10 @@ void switch_cluster_add_to_endpoint(zigbee_switch_cluster *cluster,
     cluster->endpoint = endpoint->endpoint;
     switch_cluster_load_attrs_from_nv(cluster);
 
-    cluster->long_press_heartbeat_task.handler =
-    switch_cluster_long_press_heartbeat;
-    cluster->long_press_heartbeat_task.arg = cluster;
-    hal_tasks_init(&cluster->long_press_heartbeat_task);
+    // cluster->long_press_heartbeat_task.handler =
+    //     switch_cluster_long_press_heartbeat;
+    // cluster->long_press_heartbeat_task.arg = cluster;
+    // hal_tasks_init(&cluster->long_press_heartbeat_task);
 
     cluster->button->on_press =
         (ev_button_callback_t)switch_cluster_on_button_press;
@@ -349,7 +349,7 @@ void switch_cluster_level_control(zigbee_switch_cluster *cluster) {
     }
 }
 
-static void switch_cluster_long_press_heartbeat(void *arg) {
+/*static void switch_cluster_long_press_heartbeat(void *arg) {
     zigbee_switch_cluster *cluster = (zigbee_switch_cluster *)arg;
 
     if (cluster == NULL || cluster->button == NULL ||
@@ -358,10 +358,9 @@ static void switch_cluster_long_press_heartbeat(void *arg) {
     }
 
     /*
-     * Diagnostic only:
-     * alternate the raw attribute value so that Zigbee reporting
+     * Diagnostic only: alternate the raw attribute value so Zigbee reporting
      * sees a real change on every heartbeat.
-     */
+     
     if (cluster->multistate_state == MULTISTATE_LONG_PRESS) {
         cluster->multistate_state = MULTISTATE_PRESS;
     } else {
@@ -369,19 +368,15 @@ static void switch_cluster_long_press_heartbeat(void *arg) {
     }
 
     hal_zigbee_notify_attribute_changed(
-        cluster->endpoint,
-        ZCL_CLUSTER_MULTISTATE_INPUT_BASIC,
-        ZCL_ATTR_MULTISTATE_INPUT_PRESENT_VALUE
-    );
+        cluster->endpoint, ZCL_CLUSTER_MULTISTATE_INPUT_BASIC,
+        ZCL_ATTR_MULTISTATE_INPUT_PRESENT_VALUE);
 
-    hal_tasks_schedule(
-        &cluster->long_press_heartbeat_task,
-        LONG_PRESS_HEARTBEAT_INTERVAL_MS
-    );
-}
+    //hal_tasks_schedule(&cluster->long_press_heartbeat_task,
+    //                   LONG_PRESS_HEARTBEAT_INTERVAL_MS);
+}*/
 
 void switch_cluster_on_button_press(zigbee_switch_cluster *cluster) {
-    hal_tasks_unschedule(&cluster->long_press_heartbeat_task);
+    //hal_tasks_unschedule(&cluster->long_press_heartbeat_task);
     switch_cluster_flash_indicator(cluster);
 
     if (cluster->mode == ZCL_ONOFF_CONFIGURATION_SWITCH_TYPE_TOGGLE) {
@@ -412,7 +407,7 @@ void switch_cluster_on_button_press(zigbee_switch_cluster *cluster) {
 }
 
 void switch_cluster_on_button_release(zigbee_switch_cluster *cluster) {
-    hal_tasks_unschedule(&cluster->long_press_heartbeat_task);
+    //hal_tasks_unschedule(&cluster->long_press_heartbeat_task);
     if (cluster->mode == ZCL_ONOFF_CONFIGURATION_SWITCH_TYPE_TOGGLE) {
         // Only flash on release for toggles,
         // for momentary flash on press only
@@ -473,18 +468,11 @@ void switch_cluster_on_button_long_press(zigbee_switch_cluster *cluster) {
      */
     cluster->multistate_state = MULTISTATE_LONG_PRESS;
     hal_zigbee_notify_attribute_changed(
-        cluster->endpoint,
-        ZCL_CLUSTER_MULTISTATE_INPUT_BASIC,
-        ZCL_ATTR_MULTISTATE_INPUT_PRESENT_VALUE
-    );
+        cluster->endpoint, ZCL_CLUSTER_MULTISTATE_INPUT_BASIC,
+        ZCL_ATTR_MULTISTATE_INPUT_PRESENT_VALUE);
 
-    /*
-     * Repeat LONG_PRESS periodically while the physical button remains held.
-     */
-    hal_tasks_schedule(
-        &cluster->long_press_heartbeat_task,
-        LONG_PRESS_HEARTBEAT_INTERVAL_MS
-    );
+    //hal_tasks_schedule(&cluster->long_press_heartbeat_task,
+    //                   LONG_PRESS_HEARTBEAT_INTERVAL_MS);
 }
 
 void synchronize_multistate_state(zigbee_switch_cluster *cluster) {
