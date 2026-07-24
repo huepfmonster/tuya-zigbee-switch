@@ -6,6 +6,7 @@
 #include "hal/zigbee.h"
 #include "hal/tasks.h"
 #include <stdint.h>
+#include <stdbool.h>
 
 typedef struct {
     uint8_t  mode;
@@ -32,7 +33,8 @@ typedef struct {
     uint8_t              level_move_rate;
     uint8_t              level_move_direction;
     led_t *              indicator_led;
-    hal_task_t            long_press_heartbeat_task;
+    bool                 long_press_active;
+    hal_task_t           long_press_heartbeat_task;
 } zigbee_switch_cluster;
 
 void switch_cluster_add_to_endpoint(zigbee_switch_cluster *cluster,
