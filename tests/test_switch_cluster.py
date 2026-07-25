@@ -21,6 +21,7 @@ from tests.zcl_consts import (
     ZCL_ONOFF_CONFIGURATION_RELAY_MODE_SHORT,
     ZCL_ONOFF_CONFIGURATION_SWITCH_ACTION_TOGGLE_SIMPLE,
     ZCL_ONOFF_CONFIGURATION_SWITCH_TYPE_TOGGLE,
+    ZCL_ONOFF_CONFIGURATION_SWITCH_TYPE_MOMENTARY
 )
 
 
@@ -154,3 +155,69 @@ def test_switch_cluster_attributes_preserved_via_nvm() -> None:
             assert actual_value == expected_value, (
                 f"Attribute {attr_id:04x} not preserved via NVM: expected {expected_value}, got {actual_value}"
             )
+
+    
+def test_long_press_heartbeat_disabled(
+    device: Device,
+    button_pin: str,
+):
+    endpoint = 1
+
+    # Long presses are ignored in toggle mode.
+    device.zcl_switch_mode_set(
+        endpoint,
+        ZCL_ONOFF_CONFIGURATION_SWITCH_TYPE_MOMENTARY,
+    )
+    device.zcl_switch_heartbeat_interval_set(endpoint, 0)
+
+    device.press_button(button_pin)
+
+    # Default long-press duration is 800 ms.
+    device.step_time(800)
+
+    # Initial long-press event.
+    assert device.zcl_switch_get_multistate_value(endpoint) == "2"
+
+    # With interval 0 no heartbeat must be generated.
+    device.step_time(1100)
+    assert device.zcl_switch_get_multistate_value(endpoint) == "2"
+
+    device.step_time(1000)
+    assert device.zcl_switch_get_multistate_value(endpoint) == "2"
+
+    device.release_button(button_pin)
+    assert device.zcl_switch_get_multistate_value(endpoint) == "0"
+
+def test_long_press_heartbeat_repeats_until_release(
+    device: Device,
+    button_pin: str,
+):
+    endpoint = 1
+
+    device.zcl_switch_mode_set(
+        endpoint,
+        ZCL_ONOFF_CONFIGURATION_SWITCH_TYPE_MOMENTARY,
+    )
+    device.zcl_switch_heartbeat_interval_set(endpoint, 1000)
+
+    device.press_button(button_pin)
+
+    # Trigger the initial long press.
+    device.step_time(800)
+    assert device.zcl_switch_get_multistate_value(endpoint) == "2"
+
+    # First heartbeat alternates the raw value from 2 to 5.
+    device.step_time(1000)
+    assert device.zcl_switch_get_multistate_value(endpoint) == "5"
+
+    # Second heartbeat alternates it back from 5 to 2.
+    device.step_time(1000)
+    assert device.zcl_switch_get_multistate_value(endpoint) == "2"
+
+    # Releasing the button must stop the task and publish released.
+    device.release_button(button_pin)
+    assert device.zcl_switch_get_multistate_value(endpoint) == "0"
+
+    # No heartbeat may occur after release.
+    device.step_time(1500)
+    assert device.zcl_switch_get_multistate_value(endpoint) == "0"
