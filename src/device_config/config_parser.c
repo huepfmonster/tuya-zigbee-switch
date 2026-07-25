@@ -209,6 +209,7 @@ void parse_config() {
             switch_clusters[switch_clusters_cnt].relay_index     = switch_clusters_cnt + 1;
             switch_clusters[switch_clusters_cnt].button          = &buttons[buttons_cnt];
             switch_clusters[switch_clusters_cnt].level_move_rate = 50;
+            switch_clusters[switch_clusters_cnt].long_press_heartbeat_interval_ms = 0,
             buttons_cnt++;
             switch_clusters_cnt++;
         } else if (entry[0] == 'R') {

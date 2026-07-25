@@ -16,6 +16,7 @@ from tests.zcl_consts import (
     ZCL_ATTR_ONOFF,
     ZCL_ATTR_ONOFF_CONFIGURATION_SWITCH_ACTIONS,
     ZCL_ATTR_ONOFF_CONFIGURATION_SWITCH_BINDING_MODE,
+    ZCL_ATTR_ONOFF_CONFIGURATION_SWITCH_LONG_PRESS_HEARTBEAT_INTERVAL,
     ZCL_ATTR_ONOFF_CONFIGURATION_SWITCH_MODE,
     ZCL_ATTR_ONOFF_CONFIGURATION_SWITCH_RELAY_MODE,
     ZCL_ATTR_WINDOW_COVERING_MOTOR_REVERSAL,
@@ -415,6 +416,14 @@ class Device:
             ZCL_CLUSTER_ON_OFF_SWITCH_CONFIG,
             ZCL_ATTR_ONOFF_CONFIGURATION_SWITCH_BINDING_MODE,
             binding_mode,
+        )
+
+    def zcl_switch_heartbeat_interval_set(self, endpoint: int, interval_ms: int) -> None:
+        self.write_zigbee_attr(
+            endpoint,
+            ZCL_CLUSTER_ON_OFF_SWITCH_CONFIG,
+            ZCL_ATTR_ONOFF_CONFIGURATION_SWITCH_LONG_PRESS_HEARTBEAT_INTERVAL,
+            interval_ms,
         )
 
     def zcl_switch_get_multistate_value(self, endpoint: int) -> str:
