@@ -135,7 +135,7 @@ if __name__ == "__main__":
             switch_endpoints = list(range(1, 1 + switch_cnt))
             data[zb_manufacturer].append({
                 "modelNames": model_names,
-                "exposes": ["pressAction", "switchMode", "switchAction", "relayMode", "relayIndex", "bindedMode", "longPressDuration", "levelMoveRate"],
+                "exposes": ["pressAction", "switchMode", "switchAction", "relayMode", "relayIndex", "bindedMode", "longPressDuration",    "longPressHeartbeatInterval", "levelMoveRate"],
                 "options": {
                     "customAttributes": {
                         "switchAction": {"type": "enum", "clusterId": 0x0007, "attributeId": 0x0010, "dataType": 0x30, "action": True},
@@ -145,6 +145,7 @@ if __name__ == "__main__":
                         "longPressDuration": {"type": "value", "clusterId": 0x0007, "attributeId": 0xff03, "dataType": 0x21, "action": True},
                         "levelMoveRate": {"type": "value", "clusterId": 0x0007, "attributeId": 0xff04, "dataType": 0x20, "action": True},
                         "bindedMode": {"type": "enum", "clusterId": 0x0007, "attributeId": 0xff05, "dataType": 0x30, "action": True},
+                        "longPressHeartbeatInterval": {"type": "value", "clusterId": 0x0007, "attributeId": 0xff06, "dataType": 0x21, "action": True},
                         "pressAction": {"type": "enum", "clusterId": 0x0012, "attributeId": 0x0055, "dataType": 0x21, "binding": True,
                                         "reporting": {"minInterval": 0, "maxInterval": 255, "valueChange": 1}}
                     },
@@ -153,9 +154,10 @@ if __name__ == "__main__":
                     "relayMode": {"type": "select", "enum": ["detached", "press_start", "long_press", "short_press"]},
                     "relayIndex": {"type": "select", "enum": {str(i + 1): f"relay_{i + 1}" for i in range(relay_cnt)}},
                     "longPressDuration": {"type": "number", "min": 0, "max": 5000},
+                    "longPressHeartbeatInterval": {"type": "number", "min": 0, "max": 10000},
                     "levelMoveRate": {"type": "number", "min": 1, "max": 255},
                     "bindedMode": {"type": "select", "enum": {"1": "press_start", "2": "long_press", "3": "short_press"}},
-                    "pressAction": {"enum": ["released", "press", "long_press", "position_on", "position_off"]}
+                    "pressAction": {"enum": ["released", "press", "long_press", "position_on", "position_off", "long_press_alt"]}
                 },
                 "endpointId": switch_endpoints
             })

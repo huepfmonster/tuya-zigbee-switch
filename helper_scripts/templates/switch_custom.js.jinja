@@ -96,6 +96,17 @@ const romasku = {
             valueMax: 5000,
             entityCategory: "config",
         }),
+    longPressHeartbeatInterval: (name, endpointName) =>
+        numeric({
+            name,
+            endpointNames: [endpointName],
+            cluster: "genOnOffSwitchCfg",
+            attribute: { ID: 0xff06, type: 0x21 }, // uint16
+            description: "Interval in milliseconds for repeated long press heartbeat events (0 = disabled)",
+            valueMin: 0,
+            valueMax: 10000,
+            entityCategory: "config",
+        }),
     levelMoveRate: (name, endpointName) =>
         numeric({
             name,
@@ -112,7 +123,7 @@ const romasku = {
             name,
             endpointName,
             access: "STATE_GET",
-            lookup: { released: 0, press: 1, long_press: 2, position_on: 3, position_off: 4 },
+            lookup: { released: 0, press: 1, long_press: 2, position_on: 3, position_off: 4, long_press_alt: 5 },
             cluster: "genMultistateInput",
             attribute: "presentValue",
             description: "Action of the switch: 'released' or 'press' or 'long_press'",
@@ -434,6 +445,7 @@ const definitions = [
             {% endif %}
             romasku.bindedMode("{{switchName}}_binded_mode", "{{switchName}}"),
             romasku.longPressDuration("{{switchName}}_long_press_duration", "{{switchName}}"),
+            romasku.longPressHeartbeatInterval("{{switchName}}_long_press_heartbeat_interval", "{{switchName}}"),
             romasku.levelMoveRate("{{switchName}}_level_move_rate", "{{switchName}}"),
             {% endfor %}
             {% for relayName in device.relayIndicatorNames %}

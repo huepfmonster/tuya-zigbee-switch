@@ -21,8 +21,6 @@ const uint16_t multistate_num_of_states  = 6;
 #define MULTISTATE_POSITION_ON     3
 #define MULTISTATE_POSITION_OFF    4
 #define MULTISTATE_LONG_PRESS_B    5
-#define LONG_PRESS_HEARTBEAT_INTERVAL_MS 1000
-
 
 extern zigbee_relay_cluster relay_clusters[];
 extern uint8_t relay_clusters_cnt;
@@ -33,6 +31,9 @@ void switch_cluster_on_button_press(zigbee_switch_cluster *cluster);
 void switch_cluster_on_button_release(zigbee_switch_cluster *cluster);
 void switch_cluster_on_button_long_press(zigbee_switch_cluster *cluster);
 static void switch_cluster_long_press_heartbeat(void *arg);
+static void switch_cluster_apply_config(
+    zigbee_switch_cluster *cluster,
+    const zigbee_switch_cluster_config *config);
 static bool switch_cluster_has_valid_relay(
     const zigbee_switch_cluster *cluster);
 
@@ -126,11 +127,14 @@ void switch_cluster_add_to_endpoint(zigbee_switch_cluster *cluster,
                ZCL_DATA_TYPE_UINT8, ATTR_WRITABLE, cluster->level_move_rate);
     SETUP_ATTR(7, ZCL_ATTR_ONOFF_CONFIGURATION_SWITCH_BINDING_MODE,
                ZCL_DATA_TYPE_ENUM8, ATTR_WRITABLE, cluster->binded_mode);
+    SETUP_ATTR(8, ZCL_ATTR_ONOFF_CONFIGURATION_SWITCH_LONG_PRESS_HEARTBEAT_INTERVAL,
+               ZCL_DATA_TYPE_UINT16,
+               ATTR_WRITABLE, cluster->long_press_heartbeat_interval_ms);
 
     // Configuration
     endpoint->clusters[endpoint->cluster_count].cluster_id =
         ZCL_CLUSTER_ON_OFF_SWITCH_CONFIG;
-    endpoint->clusters[endpoint->cluster_count].attribute_count = 8;
+    endpoint->clusters[endpoint->cluster_count].attribute_count = 9;
     endpoint->clusters[endpoint->cluster_count].attributes      = cluster->attr_infos;
     endpoint->clusters[endpoint->cluster_count].is_server       = 1;
     endpoint->cluster_count++;
@@ -354,26 +358,25 @@ static void switch_cluster_long_press_heartbeat(void *arg) {
     zigbee_switch_cluster *cluster = (zigbee_switch_cluster *)arg;
 
     if (cluster == NULL || cluster->button == NULL ||
-        !cluster->button->pressed || !cluster->button->long_pressed) {
+        !cluster->button->pressed || !cluster->button->long_pressed ||
+        cluster->long_press_heartbeat_interval_ms == 0) {
         return;
     }
 
-    /*
-     * Diagnostic only: alternate the raw attribute value so Zigbee reporting
-     * sees a real change on every heartbeat.
-     */
     if (cluster->multistate_state == MULTISTATE_LONG_PRESS_A) {
-    cluster->multistate_state = MULTISTATE_LONG_PRESS_B;
+        cluster->multistate_state = MULTISTATE_LONG_PRESS_B;
     } else {
         cluster->multistate_state = MULTISTATE_LONG_PRESS_A;
     }
 
     hal_zigbee_notify_attribute_changed(
-        cluster->endpoint, ZCL_CLUSTER_MULTISTATE_INPUT_BASIC,
+        cluster->endpoint,
+        ZCL_CLUSTER_MULTISTATE_INPUT_BASIC,
         ZCL_ATTR_MULTISTATE_INPUT_PRESENT_VALUE);
 
-    hal_tasks_schedule(&cluster->long_press_heartbeat_task,
-                       LONG_PRESS_HEARTBEAT_INTERVAL_MS);
+    hal_tasks_schedule(
+        &cluster->long_press_heartbeat_task,
+        cluster->long_press_heartbeat_interval_ms);
 }
 
 void switch_cluster_on_button_press(zigbee_switch_cluster *cluster) {
@@ -482,15 +485,18 @@ void switch_cluster_on_button_long_press(zigbee_switch_cluster *cluster) {
      * Send the initial LONG_PRESS report immediately.
      */
 
-     cluster->long_press_active = true;
+    cluster->long_press_active = true;
 
     cluster->multistate_state = MULTISTATE_LONG_PRESS_A;
     hal_zigbee_notify_attribute_changed(
         cluster->endpoint, ZCL_CLUSTER_MULTISTATE_INPUT_BASIC,
         ZCL_ATTR_MULTISTATE_INPUT_PRESENT_VALUE);
 
-    hal_tasks_schedule(&cluster->long_press_heartbeat_task,
-                       LONG_PRESS_HEARTBEAT_INTERVAL_MS);
+    if (cluster->long_press_heartbeat_interval_ms > 0) {
+        hal_tasks_schedule(
+            &cluster->long_press_heartbeat_task,
+            cluster->long_press_heartbeat_interval_ms);
+    }
 }
 
 void synchronize_multistate_state(zigbee_switch_cluster *cluster) {
@@ -535,46 +541,132 @@ void switch_cluster_on_write_attr(zigbee_switch_cluster *cluster,
     switch_cluster_store_attrs_to_nv(cluster);
 }
 
-zigbee_switch_cluster_config nv_config_buffer;
+typedef struct {
+    uint8_t  mode;
+    uint8_t  action;
+    uint8_t  relay_mode;
+    uint8_t  relay_index;
+    uint16_t button_long_press_duration;
+    uint8_t  level_move_rate;
+    uint8_t  binded_mode;
+} zigbee_switch_cluster_config_legacy;
 
 void switch_cluster_store_attrs_to_nv(zigbee_switch_cluster *cluster) {
-    nv_config_buffer.action      = cluster->action;
-    nv_config_buffer.mode        = cluster->mode;
-    nv_config_buffer.relay_index = cluster->relay_index;
-    nv_config_buffer.relay_mode  = cluster->relay_mode;
-    nv_config_buffer.button_long_press_duration =
+    zigbee_switch_cluster_config config = { 0 };
+
+    config.mode        = cluster->mode;
+    config.action      = cluster->action;
+    config.relay_mode  = cluster->relay_mode;
+    config.relay_index = cluster->relay_index;
+
+    config.button_long_press_duration =
         cluster->button->long_press_duration_ms;
-    nv_config_buffer.level_move_rate = cluster->level_move_rate;
-    nv_config_buffer.binded_mode     = cluster->binded_mode;
-    hal_nvm_write(NV_ITEM_SWITCH_CLUSTER_DATA(cluster->switch_idx),
-                  sizeof(zigbee_switch_cluster_config),
-                  (uint8_t *)&nv_config_buffer);
+
+    config.level_move_rate = cluster->level_move_rate;
+    config.binded_mode     = cluster->binded_mode;
+
+    config.long_press_heartbeat_interval_ms =
+        cluster->long_press_heartbeat_interval_ms;
+
+    config.version  = SWITCH_CLUSTER_CONFIG_VERSION;
+    config.reserved = 0;
+
+    hal_nvm_write(
+        NV_ITEM_SWITCH_CLUSTER_DATA(cluster->switch_idx),
+        sizeof(config),
+        (uint8_t *)&config);
 }
 
 void switch_cluster_load_attrs_from_nv(zigbee_switch_cluster *cluster) {
+    zigbee_switch_cluster_config config = { 0 };
+
     hal_nvm_status_t st = hal_nvm_read(
         NV_ITEM_SWITCH_CLUSTER_DATA(cluster->switch_idx),
-        sizeof(zigbee_switch_cluster_config), (uint8_t *)&nv_config_buffer);
+        sizeof(config),
+        (uint8_t *)&config);
 
-    if (st != HAL_NVM_SUCCESS) {
-        printf("No switch config in NV, using defaults\r\n");
-        return;
+    if (st == HAL_NVM_SUCCESS &&
+        config.version == SWITCH_CLUSTER_CONFIG_VERSION) {
+        switch_cluster_apply_config(cluster, &config);
+        printf("Loaded switch config version %d\r\n", config.version);
+    } else {
+        /*
+         * The current format could not be loaded. Try the legacy format that
+         * existed before long_press_heartbeat_interval_ms and version were
+         * added.
+         */
+        zigbee_switch_cluster_config_legacy legacy_config = { 0 };
+
+        st = hal_nvm_read(
+            NV_ITEM_SWITCH_CLUSTER_DATA(cluster->switch_idx),
+            sizeof(legacy_config),
+            (uint8_t *)&legacy_config);
+
+        if (st != HAL_NVM_SUCCESS) {
+            printf("No switch config in NV, using defaults\r\n");
+            return;
+        }
+
+        printf("Migrating legacy switch config to version %d\r\n",
+               SWITCH_CLUSTER_CONFIG_VERSION);
+
+        cluster->action      = legacy_config.action;
+        cluster->mode        = legacy_config.mode;
+        cluster->relay_index = legacy_config.relay_index;
+        cluster->relay_mode  = legacy_config.relay_mode;
+
+        cluster->button->long_press_duration_ms =
+            legacy_config.button_long_press_duration;
+
+        cluster->level_move_rate = legacy_config.level_move_rate;
+        cluster->binded_mode     = legacy_config.binded_mode;
+
+        /*
+         * Legacy configurations did not have heartbeat support.
+         * Preserve the original behavior by leaving it disabled.
+         */
+        cluster->long_press_heartbeat_interval_ms = 0;
+
+        /*
+         * Immediately replace the legacy data with the current version.
+         */
+        switch_cluster_store_attrs_to_nv(cluster);
     }
-    cluster->action      = nv_config_buffer.action;
-    cluster->mode        = nv_config_buffer.mode;
-    cluster->relay_index = nv_config_buffer.relay_index;
-    cluster->relay_mode  = nv_config_buffer.relay_mode;
-    cluster->button->long_press_duration_ms =
-        nv_config_buffer.button_long_press_duration;
-    cluster->level_move_rate = nv_config_buffer.level_move_rate;
-    cluster->binded_mode     = nv_config_buffer.binded_mode;
 
-    // Validate relay_index to prevent out-of-bounds access
+    /*
+     * Validate relay_index after loading either configuration version.
+     * Persist any correction so the invalid value is not loaded again
+     * on the next restart.
+     */
     if (relay_clusters_cnt == 0) {
-        cluster->relay_index = 0;
-    } else if (cluster->relay_index < 1 || cluster->relay_index > relay_clusters_cnt) {
+        if (cluster->relay_index != 0) {
+            cluster->relay_index = 0;
+            switch_cluster_store_attrs_to_nv(cluster);
+        }
+    } else if (cluster->relay_index < 1 ||
+               cluster->relay_index > relay_clusters_cnt) {
         printf("Invalid relay_index %d in NV, resetting to default\r\n",
                cluster->relay_index);
+
         cluster->relay_index = cluster->switch_idx + 1;
+        switch_cluster_store_attrs_to_nv(cluster);
     }
+}
+
+static void switch_cluster_apply_config(
+    zigbee_switch_cluster *cluster,
+    const zigbee_switch_cluster_config *config) {
+    cluster->action      = config->action;
+    cluster->mode        = config->mode;
+    cluster->relay_index = config->relay_index;
+    cluster->relay_mode  = config->relay_mode;
+
+    cluster->button->long_press_duration_ms =
+        config->button_long_press_duration;
+
+    cluster->level_move_rate = config->level_move_rate;
+    cluster->binded_mode     = config->binded_mode;
+
+    cluster->long_press_heartbeat_interval_ms =
+        config->long_press_heartbeat_interval_ms;
 }

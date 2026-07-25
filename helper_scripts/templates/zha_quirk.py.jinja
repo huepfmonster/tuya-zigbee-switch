@@ -92,6 +92,13 @@ class CustomOnOffConfigurationCluster(CustomCluster, OnOffConfiguration):
             is_manufacturer_specific=False,
         )
 
+        long_press_heartbeat_interval = ZCLAttributeDef(
+            id=0xff06,
+            type=t.uint16_t,
+            access="rw",
+            is_manufacturer_specific=False,
+        )
+
 
 class CustomMultistateInputCluster(CustomCluster, MultistateInput):
 
@@ -325,6 +332,17 @@ for config in CONFIGS:
                 endpoint_id=endpoint_id,
             )
             .number(
+                CustomOnOffConfigurationCluster.AttributeDefs.long_press_heartbeat_interval.name,
+                CustomOnOffConfigurationCluster.cluster_id,
+                translation_key="long_press_heartbeat_interval_"+str(endpoint_id),
+                fallback_name="Long press heartbeat interval "+str(endpoint_id),
+                min_value=0,
+                max_value=10000,
+                step=1,
+                endpoint_id=endpoint_id,
+                entity_type=EntityType.CONFIG,
+            )
+            .number(
                 CustomOnOffConfigurationCluster.AttributeDefs.level_move_rate.name,
                 CustomOnOffConfigurationCluster.cluster_id,
                 translation_key="level_move_rate_"+str(endpoint_id),
@@ -342,7 +360,7 @@ for config in CONFIGS:
                 endpoint_id=endpoint_id,
                 reporting_config=ReportingConfig(min_interval=0, max_interval=300, reportable_change=1),
                 device_class=SensorDeviceClass.ENUM,
-                attribute_converter = lambda x: {0: "released", 1: "press", 2: "long_press", 3: "position_on", 4: "position_off"}[int(x)]
+                attribute_converter = lambda x: {0: "released", 1: "press", 2: "long_press", 3: "position_on", 4: "position_off", 5: "long_press_alt"}[int(x)]
             )
         )
     for endpoint_id in range(switch_cnt + 1, switch_cnt + min(relay_cnt, indicators_cnt) + 1):
