@@ -485,7 +485,7 @@ void switch_cluster_on_button_long_press(zigbee_switch_cluster *cluster) {
      * Send the initial LONG_PRESS report immediately.
      */
 
-     cluster->long_press_active = true;
+    cluster->long_press_active = true;
 
     cluster->multistate_state = MULTISTATE_LONG_PRESS_A;
     hal_zigbee_notify_attribute_changed(
@@ -552,7 +552,7 @@ typedef struct {
 } zigbee_switch_cluster_config_legacy;
 
 void switch_cluster_store_attrs_to_nv(zigbee_switch_cluster *cluster) {
-    zigbee_switch_cluster_config config = {0};
+    zigbee_switch_cluster_config config = { 0 };
 
     config.mode        = cluster->mode;
     config.action      = cluster->action;
@@ -578,7 +578,7 @@ void switch_cluster_store_attrs_to_nv(zigbee_switch_cluster *cluster) {
 }
 
 void switch_cluster_load_attrs_from_nv(zigbee_switch_cluster *cluster) {
-    zigbee_switch_cluster_config config = {0};
+    zigbee_switch_cluster_config config = { 0 };
 
     hal_nvm_status_t st = hal_nvm_read(
         NV_ITEM_SWITCH_CLUSTER_DATA(cluster->switch_idx),
@@ -587,17 +587,15 @@ void switch_cluster_load_attrs_from_nv(zigbee_switch_cluster *cluster) {
 
     if (st == HAL_NVM_SUCCESS &&
         config.version == SWITCH_CLUSTER_CONFIG_VERSION) {
-
         switch_cluster_apply_config(cluster, &config);
         printf("Loaded switch config version %d\r\n", config.version);
-
     } else {
         /*
          * The current format could not be loaded. Try the legacy format that
          * existed before long_press_heartbeat_interval_ms and version were
          * added.
          */
-        zigbee_switch_cluster_config_legacy legacy_config = {0};
+        zigbee_switch_cluster_config_legacy legacy_config = { 0 };
 
         st = hal_nvm_read(
             NV_ITEM_SWITCH_CLUSTER_DATA(cluster->switch_idx),
@@ -636,20 +634,19 @@ void switch_cluster_load_attrs_from_nv(zigbee_switch_cluster *cluster) {
     }
 
     /*
-    * Validate relay_index after loading either configuration version.
-    * Persist any correction so the invalid value is not loaded again
-    * on the next restart.
-    */
+     * Validate relay_index after loading either configuration version.
+     * Persist any correction so the invalid value is not loaded again
+     * on the next restart.
+     */
     if (relay_clusters_cnt == 0) {
         if (cluster->relay_index != 0) {
             cluster->relay_index = 0;
             switch_cluster_store_attrs_to_nv(cluster);
         }
     } else if (cluster->relay_index < 1 ||
-            cluster->relay_index > relay_clusters_cnt) {
-
+               cluster->relay_index > relay_clusters_cnt) {
         printf("Invalid relay_index %d in NV, resetting to default\r\n",
-            cluster->relay_index);
+               cluster->relay_index);
 
         cluster->relay_index = cluster->switch_idx + 1;
         switch_cluster_store_attrs_to_nv(cluster);
@@ -659,7 +656,6 @@ void switch_cluster_load_attrs_from_nv(zigbee_switch_cluster *cluster) {
 static void switch_cluster_apply_config(
     zigbee_switch_cluster *cluster,
     const zigbee_switch_cluster_config *config) {
-
     cluster->action      = config->action;
     cluster->mode        = config->mode;
     cluster->relay_index = config->relay_index;

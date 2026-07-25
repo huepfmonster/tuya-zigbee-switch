@@ -8,7 +8,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define SWITCH_CLUSTER_CONFIG_VERSION    1
+#define SWITCH_CLUSTER_CONFIG_VERSION 1
 
 typedef struct {
     uint8_t  mode;
