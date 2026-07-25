@@ -8,6 +8,8 @@
 #include <stdint.h>
 #include <stdbool.h>
 
+#define SWITCH_CLUSTER_CONFIG_VERSION 1
+
 typedef struct {
     uint8_t  mode;
     uint8_t  action;
@@ -16,7 +18,12 @@ typedef struct {
     uint16_t button_long_press_duration;
     uint8_t  level_move_rate;
     uint8_t  binded_mode;
+
+    /* Added in config version 1 */
     uint16_t long_press_heartbeat_interval_ms;
+
+    uint8_t  version;
+    uint8_t  reserved;
 } zigbee_switch_cluster_config;
 
 typedef struct {
